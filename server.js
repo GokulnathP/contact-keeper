@@ -4,6 +4,8 @@ const connectDB = require('./config/db');
 
 connectDB();
 
+app.use(express.json({extended:false}));
+
 app.get('/', (req,res) => res.json({'msg':'welcome to out Contact keeper API...'}));
 
 app.use('/api/users', require('./routes/users'));
