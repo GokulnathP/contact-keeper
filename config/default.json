@@ -1,3 +1,4 @@
 {
-  "mongoURI" : "mongodb+srv://gokulnath:gokul123@contactkeeper-qz1p8.mongodb.net/test?retryWrites=true&w=majority"
+  "mongoURI" : "mongodb+srv://gokulnath:gokul123@contactkeeper-qz1p8.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret" : "gokul"
 }
